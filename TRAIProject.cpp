@@ -466,14 +466,10 @@ int main() {
         std::cout << "Sum of Spectrum Range for Jio in Kolkata : " << dataManager.sum("Jio" , "Kolkata") << " MHz" << std::endl;
         std::cout << "Sum of Spectrum Range for Vodafone in Kolkata : " << dataManager.sum("Vodafone" , "Kolkata") << " MHz" <<"\n "<< std::endl;
         
-
-
         std::cout << "Sum of Subscribers for Airtel in Kolkata :  " << dataManager.subscribersum("Airtel" , "Kolkata") <<std::endl;
         std::cout << "Sum of Subscribers for BSNL in Kolkata :  " << dataManager.subscribersum("BSNL" , "Kolkata") <<std::endl;
         std::cout << "Sum of Subscribers for Jio in Kolkata :  " << dataManager.subscribersum("Jio" , "Kolkata") <<std::endl;
         std::cout << "Sum of Subscribers for Vodafone in Kolkata :  " << dataManager.subscribersum("Vodafone" , "Kolkata") <<"\n "<<std::endl;
-
-
 
         std::cout<<"usage density of airtel in Kolkata "<<dataManager.density("Airtel", "Kolkata")<<std::endl;
         std::cout<<"usage density of BSNL in Kolkata "<<dataManager.density("BSNL", "Kolkata")<<std::endl;
@@ -486,7 +482,6 @@ int main() {
         dataManager.densitycomp("Vodafone", "Kolkata");
 
     }
-
         return 0;
 }
 
