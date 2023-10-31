@@ -74,7 +74,7 @@ The program displays the following information for each company and location:
 > Usage density.
 > Bidding decision (allowed or not allowed).
 
-Any changes or any suggestions anyone want to give in regarding to improvement or correction of code will appreciable. Please feel free to give suggestions.
+
 
 
 
